@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dylanlacey</groupId>
+  <artifactId>PropControlSemVerStrategy</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+ 
+  <name>SemVer Strat, Property Style</name>
+  <description>A Semantic Version Strategy for the Maven Release library, allowing builds to control version increments by System Properties.</description>
+  <url>https://github.com/DylanLacey/PropControlSemVerStrategy</url>
+  
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>${project.groupId}:${project.artifactId}</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  
+  <developers>
+  	<developer>
+  	  	<name>Dylan Lacey</name>
+	  	<email>NoThankYou@NotARealEmailAddress.co</email>
+	  	<organizationUrl>https://dylanlacey.com</organizationUrl>
+  	</developer>
+  </developers>
+  
+  <scm>
+	  <connection>scm:git:git://github.com/dylanlacey/PropControlSemVerStrategy.git</connection>
+	  <developerConnection>scm:git:ssh://dylanlacey/PropControlSemVerStrategy.git</developerConnection>
+	  <url>https://github.com/DylanLacey/PropControlSemVerStrategy/tree/mainr</url>
+  </scm>
+</project>
