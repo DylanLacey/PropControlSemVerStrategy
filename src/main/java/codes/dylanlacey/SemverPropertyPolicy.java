@@ -42,7 +42,7 @@ public final class SemverPropertyPolicy implements VersionPolicy
 
         System.out.println("Turned into " + releaseType.toString());
         if(releaseType != Element.PATCH) {
-            version.next(releaseType);
+            version = version.next(releaseType);
         }
 
         System.out.println("Suggested new version is " + version);
