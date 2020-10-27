@@ -3,7 +3,7 @@
   <groupId>com.dylanlacey</groupId>
   <artifactId>PropControlSemVerStrategy</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
  
   <name>SemVer Strat, Property Style</name>
   <description>A Semantic Version Strategy for the Maven Release library, allowing builds to control version increments by System Properties.</description>
@@ -30,4 +30,12 @@
 	  <developerConnection>scm:git:ssh://dylanlacey/PropControlSemVerStrategy.git</developerConnection>
 	  <url>https://github.com/DylanLacey/PropControlSemVerStrategy/tree/mainr</url>
   </scm>
+
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.maven.plugins</groupId>
+  		<artifactId>maven-release-plugin</artifactId>
+  		<version>3.0.0-M1</version>
+  	</dependency>
+  </dependencies>
 </project>
