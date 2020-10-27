@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>codes.dylanlacey</groupId>
   <artifactId>SemverPropertyPolicy</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5-SNAPSHOT</version>
   <packaging>jar</packaging>
  
   <name>SemVer Policy, But with Property Controls</name>
@@ -34,7 +34,7 @@
 	  <connection>scm:git:git://github.com/dylanlacey/PropControlSemVerStrategy.git</connection>
 	  <developerConnection>scm:git:ssh://github.com/dylanlacey/PropControlSemVerStrategy.git</developerConnection>
 	  <url>https://github.com/DylanLacey/PropControlSemVerStrategy/tree/main</url>
-    <tag>SemverPropertyPolicy-0.0.4</tag>
+    <tag>SemverPropertyPolicy-0.0.1</tag>
   </scm>
 
   <distributionManagement>
