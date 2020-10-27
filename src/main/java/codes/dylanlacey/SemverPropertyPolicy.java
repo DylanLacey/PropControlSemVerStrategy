@@ -37,8 +37,10 @@ public final class SemverPropertyPolicy implements VersionPolicy
         }
         
         String releaseTypeString = Optional.ofNullable(System.getProperty("RELEASE_TYPE")).orElse("PATCH");
+        System.out.println("Releasing: " + releaseTypeString);
         Element releaseType = Element.valueOf(releaseTypeString.toUpperCase());
 
+        System.out.println("Turned into " + releaseType.toString());
         if(releaseType != Element.PATCH) {
             version.next(releaseType);
         }
