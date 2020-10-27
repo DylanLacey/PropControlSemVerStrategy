@@ -34,7 +34,7 @@
 	  <connection>scm:git:git://github.com/dylanlacey/PropControlSemVerStrategy.git</connection>
 	  <developerConnection>scm:git:ssh://github.com/dylanlacey/PropControlSemVerStrategy.git</developerConnection>
 	  <url>https://github.com/DylanLacey/PropControlSemVerStrategy/tree/main</url>
-    <tag>SemverPropertyPolicy-0.0.1</tag>
+    <tag>SemverPropertyPolicy-0.0.7</tag>
   </scm>
 
   <distributionManagement>
